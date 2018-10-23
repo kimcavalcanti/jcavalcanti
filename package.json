@@ -1,0 +1,24 @@
+{
+  "name": "jcavalcanti",
+  "version": "1.0.0",
+  "description": "Joaquim Cavalcanti, the person",
+  "main": "./info.json",
+  "scripts": {
+    "postinstall": "cat info.json",
+    "postversion": "npm publish"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Kim Cavalcanti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimcavalcanti/jcavalcanti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimcavalcanti/jcavalcanti/issues"
+  },
+  "homepage": "https://github.com/kimcavalcanti/jcavalcanti#readme"
+}
